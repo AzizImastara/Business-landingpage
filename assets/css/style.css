@@ -28,6 +28,35 @@ nav{
   .jumbotron .display{
     margin-top: 180px;
   }
+
+  .features h1{
+    font-size: 48px;
+    font-weight: 400;
+  }
+  .features p{
+    font-size: 28px;
+    font-weight: 400;
+  }
+
+  .vector{
+    margin-top: 80px;
+  }
+  .vector .col img{
+    width: 60px;
+    height: 60px;
+  }
+  .vector h1{
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .vector p{
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .screen{
+    margin-top: 80px;
+  }
 }
 
 /* LARGER DEVICE */
