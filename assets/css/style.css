@@ -106,6 +106,28 @@ nav{
   .content__3 img{
     margin: 80px 0;
   }
+
+  .content__4{
+    margin: 100px 0;
+  }
+  .content__4 h1{
+    font-size: 48px;
+    font-weight: 400;
+  }
+  .content__4 .ibm img{
+    margin: 80px 0;
+  }
+  .content__4 h4{
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 80px;
+  }
+  .content__4 p{
+    margin: 0;
+  }
+  .content__4 button{
+    margin: 80px 0;
+  }
 }
 
 /* LARGER DEVICE */
