@@ -90,6 +90,22 @@ nav{
     font-size: 18px;
     font-weight: 400;
   }
+
+  .content__3{
+    margin-top: 80px;
+  }
+  .content__3 h2{
+    font-size: 48px;
+    font-weight: 400;
+    margin-bottom: 40px;
+  }
+  .content__3 p{
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .content__3 img{
+    margin: 80px 0;
+  }
 }
 
 /* LARGER DEVICE */
