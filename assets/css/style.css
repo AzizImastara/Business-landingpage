@@ -133,7 +133,37 @@ nav{
     background-color: #252B42;
     padding: 100px 0;
   }
-
+  .box__card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 48px;
+  }
+  .box__col{
+    padding: 40px;
+    align-items: flex-end;
+  }
+  .box__col h1{
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .box__col h4{
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .box__col p{
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .dollar{
+    padding: 30px 0;
+  }
+  .dollar__biru{
+    padding: 30px 0;
+  }
+  .boxx__biru{
+    padding: 100px;
+  }
 }
 
 /* LARGER DEVICE */
