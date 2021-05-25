@@ -161,6 +161,39 @@ nav{
   .dollar__biru{
     padding: 30px 0;
   }
+
+  .content__6{
+    padding: 100px 0;
+  }
+  .desktop__6 h1{
+    font-size: 48px;
+    font-weight: 400;
+  }
+  .desktop__6 p{
+    font-size: 28px;
+    font-weight: 400;
+  }
+  .left h3{
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .right .bx__item p{
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .bx__item{
+    padding: 0 20px;
+  }
+  .form__content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .map{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+  }
 }
 
 /* LARGER DEVICE */
