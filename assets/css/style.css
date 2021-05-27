@@ -41,10 +41,6 @@ nav{
   .vector{
     margin-top: 80px;
   }
-  .vector .col img{
-    width: 60px;
-    height: 60px;
-  }
   .vector h1{
     font-size: 20px;
     font-weight: 700;
@@ -60,10 +56,6 @@ nav{
     display: flex;
     justify-content: center;
   }
-  .screen img{
-    width: 100%;
-    height: 373px;
-  }
 
   .content__1 h2{
     font-size: 48px;
@@ -73,9 +65,12 @@ nav{
     font-size: 28px;
     font-weight: 400;
   }
+  .content__1 button{
+    padding: 12px 20px;
+  }
 
   .content__2{
-    margin-top: 80px;
+    padding: 80px 0;
   }
   .content__2 h3{
     font-size: 20px;
@@ -90,48 +85,62 @@ nav{
     font-size: 18px;
     font-weight: 400;
   }
+  .content__2 button{
+    padding: 12px 20px;
+  }
 
   .content__3{
-    margin-top: 80px;
+    padding: 80px 0;
   }
   .content__3 h2{
     font-size: 48px;
     font-weight: 400;
-    margin-bottom: 40px;
   }
   .content__3 p{
-    font-size: 18px;
+    font-size: 28px;
     font-weight: 400;
   }
   .content__3 img{
-    margin: 80px 0;
+    padding: 80px 0;
+  }
+  .content__3 button{
+    padding: 12px 20px;
   }
 
   .content__4{
-    margin: 100px 0;
+    padding: 80px 0;
   }
   .content__4 h1{
     font-size: 48px;
     font-weight: 400;
   }
   .content__4 .ibm img{
-    margin: 80px 0;
+    padding: 80px 0;
   }
   .content__4 h4{
     font-size: 28px;
     font-weight: 400;
-    margin-bottom: 80px;
+    padding-bottom: 80px;
   }
   .content__4 p{
     margin: 0;
   }
   .content__4 button{
     margin: 80px 0;
+    padding: 12px 20px;
   }
 
   .content__5{
     background-color: #252B42;
     padding: 100px 0;
+  }
+  .desktop__5 h1{
+    font-size: 48px;
+    font-weight: 400;
+  }
+  .desktop__5 h2{
+    font-size: 28px;
+    font-weight: 400;
   }
   .box__card{
     display: flex;
@@ -194,6 +203,35 @@ nav{
     justify-content: center;
     padding: 20px 0;
   }
+
+  .content__7{
+    background-color: #252B42;
+    padding: 100px 0;
+  }
+  .content__7 h4{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 28px;
+  }
+  .content__7 p{
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .location .maplight p{
+    padding-top: 20px;
+  }
+  .location .andro img{
+    margin-right: 12px;
+    margin-left: 12px;
+    margin-top: 12px;
+  }
+  .location .andro p{
+    padding-top: 20px;
+  }
+  .location .logo__bottom{
+    padding-top: 20px;
+    margin-left: -12px;
+  }
 }
 
 /* LARGER DEVICE */
@@ -207,6 +245,188 @@ nav{
   }
   .jumbotron .display{
     margin-top: 180px;
+  }
+  .vector h1{
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .vector p{
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .vector {
+    padding: 80px 0;
+  }
+
+  .content__1{
+    padding: 80px 0;
+  }
+  .content__1 h2{
+    font-size: 40px;
+    font-weight: 400;
+  }
+  .content__1 p{
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .content__1 button{
+    padding: 12px 20px;
+  }
+
+  .content__2{
+    padding: 80px 0;
+  }
+  .content__2 h3{
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .content__2 h2{
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 40px;
+  }
+  .content__2 p{
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .content__2 button{
+    padding: 12px 20px;
+  }
+
+  .content__3{
+    padding: 80px 0;
+  }
+  .content__3 img{
+    padding: 80px 0;
+  }
+  .content__3 button{
+    padding: 12px 20px;
+  }
+
+  .content__4{
+    padding: 80px 0;
+  }
+  .content__4 h1{
+    font-size: 40px;
+    font-weight: 400;
+  }
+  .content__4 .ibm img{
+    padding: 80px 0;
+  }
+  .content__4 h4{
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 80px;
+  }
+  .content__4 p{
+    margin: 0;
+  }
+  .content__4 button{
+    margin: 80px 0;
+    padding: 12px 20px;
+  }
+
+  .content__5{
+    background-color: #252B42;
+    padding: 100px 0;
+  }
+  .desktop__5 h1{
+    font-size: 40px;
+    font-weight: 400;
+  }
+  .desktop__5 h2{
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .box__card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 48px;
+  }
+  .box__col{
+    padding: 40px;
+    align-items: flex-end;
+  }
+  .box__col h1{
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .box__col h4{
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .box__col p{
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .dollar{
+    padding: 30px 0;
+  }
+  .dollar__biru{
+    padding: 30px 0;
+  }
+
+  .content__6{
+    padding: 100px 0;
+  }
+  .desktop__6 h1{
+    font-size: 40px;
+    font-weight: 400;
+  }
+  .desktop__6 p{
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .left h3{
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .right .bx__item p{
+    font-size: 12px;
+    font-weight: 400;
+  }
+  .bx__item{
+    padding: 0 20px;
+  }
+  .form__content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .map{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+  }
+
+  .content__7{
+    background-color: #252B42;
+    padding: 100px 0;
+  }
+  .content__7 h4{
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 28px;
+  }
+  .content__7 p{
+    font-size: 12px;
+    font-weight: 400;
+  }
+  .location .maplight p{
+    padding-top: 20px;
+  }
+  .location .andro img{
+    margin-right: 12px;
+    margin-left: 12px;
+    margin-top: 12px;
+  }
+  .location .andro p{
+    padding-top: 20px;
+  }
+  .location .logo__bottom{
+    padding-top: 20px;
+    margin-left: -12px;
   }
 }
 
