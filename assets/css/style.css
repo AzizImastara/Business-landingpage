@@ -72,6 +72,9 @@ nav{
   .content__2{
     padding: 80px 0;
   }
+  .hide__large{
+    display: none;
+  }
   .content__2 h3{
     font-size: 20px;
     font-weight: 700;
@@ -105,6 +108,9 @@ nav{
   }
   .content__3 button{
     padding: 12px 20px;
+  }
+  .content__3 .md-sm-img{
+    display: none;
   }
 
   .content__4{
@@ -276,6 +282,9 @@ nav{
   .content__2{
     padding: 80px 0;
   }
+  .hide__large{
+    display: none;
+  }
   .content__2 h3{
     font-size: 20px;
     font-weight: 700;
@@ -301,6 +310,9 @@ nav{
   }
   .content__3 button{
     padding: 12px 20px;
+  }
+  .content__3 .md-sm-img{
+    display: none;
   }
 
   .content__4{
@@ -456,6 +468,58 @@ nav{
     display: flex;
     flex-direction: column-reverse;
   }
+
+  .content__1{
+    text-align: center;
+  }
+  .content__1 button{
+    margin: 40px 0;
+  }
+
+  .content__2{
+    text-align: center;
+    display: flex;
+    padding: 80px 0;
+  }
+  .content__2 img{
+    padding: 80px 0;
+  }
+  .hide__large h3{
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .hide__large h2{
+    font-size: 48px;
+    font-weight: 400;
+  }
+  .hide__small{
+    display: none;
+  }
+  .click h3{
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .click{
+    display: flex;
+    flex-direction: column;
+    padding: 40px 0;
+  }
+  .click button{
+    padding: 17px 35px;
+  }
+
+  .content__3{
+    padding: 80px 0;
+  }
+  .content__3 .lg-img{
+    display: none;
+  }
+  .content__3 button{
+    padding: 16px 60px;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 40px 0;
+  }
 }
 
 /* SMALL DEVICE */
@@ -472,5 +536,49 @@ nav{
     padding: 80px 0;
     display: flex;
     flex-direction: column-reverse;
+  }
+
+  .content__1{
+    text-align: center;
+  }
+  .content__1 button{
+    margin: 40px 0;
+  }
+
+  .content__2{
+    text-align: center;
+    display: flex;
+    padding: 80px 0;
+  }
+  .content__2 img{
+    padding: 80px 0;
+  }
+  .hide__small{
+    display: none;
+  }
+  .click h3{
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .click{
+    display: flex;
+    flex-direction: column;
+    padding: 40px 0;
+  }
+  .click button{
+    padding: 17px 35px;
+  }
+
+  .content__3{
+    padding: 80px 0;
+  }
+  .content__3 .lg-img{
+    display: none;
+  }
+  .content__3 button{
+    padding: 16px 60px;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 40px 0;
   }
 }
