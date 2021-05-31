@@ -551,6 +551,51 @@ nav{
     font-weight: 700;
     padding: 16px 48px;
   }
+
+  .content__5{
+    background-color: #252B42;
+    padding: 100px 0;
+  }
+  .desktop__5 h1{
+    font-size: 40px;
+    font-weight: 400;
+  }
+  .desktop__5 h2{
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .box__card{
+    padding: 48px;
+    display: flex;
+    flex-direction: column;
+  }
+  .box__col{
+    border-radius: 20px;
+    padding: 24px 0;
+    margin: 48px;
+  }
+  .box__col h1{
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .box__col h4{
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .box__col p{
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .box__card button{
+    padding: 16px 72px;
+    font-size: 20px;
+  }
+  .dollar{
+    padding: 48px 148px;
+  }
+  .dollar__biru{
+    padding: 48px 148px;
+  }
 }
 
 /* SMALL DEVICE */
@@ -642,5 +687,54 @@ nav{
     font-size: 20px;
     font-weight: 700;
     padding: 16px 48px;
+  }
+
+  .content__5{
+    background-color: #252B42;
+    padding: 100px 0;
+  }
+  .desktop__5 h1{
+    font-size: 40px;
+    font-weight: 400;
+  }
+  .desktop__5 h2{
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .box__card{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .box__col{
+    border-radius: 20px;
+    padding: 24px 0;
+    margin: 48px;
+  }
+  .box__col h1{
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .box__col h4{
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .box__col p{
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .box__card button{
+    padding: 8px 40px;
+    font-size: 16px;
+  }
+  .dollar{
+    padding: 16px 32px;
+  }
+  .dollar__biru h1{
+    font-size: 60px;
+    font-weight: 700;
+  }
+  .dollar__biru{
+    padding: 16px 32px;
   }
 }
