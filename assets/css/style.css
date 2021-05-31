@@ -474,6 +474,9 @@ nav{
   }
   .content__1 button{
     margin: 40px 0;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 16px 48px;
   }
 
   .content__2{
@@ -505,7 +508,8 @@ nav{
     padding: 40px 0;
   }
   .click button{
-    padding: 17px 35px;
+    padding: 16px 36px;
+    font-size: 20px;
   }
 
   .content__3{
@@ -519,6 +523,33 @@ nav{
     font-size: 20px;
     font-weight: 700;
     margin: 40px 0;
+  }
+
+  .content__4{
+    padding: 80px 0;
+  }
+  .content__4 h1{
+    font-size: 48px;
+    font-weight: 400;
+  }
+  .content__4 .ibm img{
+    padding: 80px 0;
+  }
+  .content__4 h4{
+    font-size: 12px;
+    font-weight: 700;
+    padding-bottom: 80px;
+  }
+  .content__4 p{
+    margin: 0;
+    font-size: 12px;
+    font-weight: 400;
+  }
+  .content__4 button{
+    margin: 80px 0;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 16px 48px;
   }
 }
 
@@ -543,6 +574,9 @@ nav{
   }
   .content__1 button{
     margin: 40px 0;
+    padding: 16px 48px;
+    font-size: 20px;
+    font-weight: 700;
   }
 
   .content__2{
@@ -566,7 +600,8 @@ nav{
     padding: 40px 0;
   }
   .click button{
-    padding: 17px 35px;
+    padding: 16px 36px;
+    font-size: 20px;
   }
 
   .content__3{
@@ -580,5 +615,32 @@ nav{
     font-size: 20px;
     font-weight: 700;
     margin: 40px 0;
+  }
+
+  .content__4{
+    padding: 80px 0;
+  }
+  .content__4 h1{
+    font-size: 48px;
+    font-weight: 400;
+  }
+  .content__4 .ibm img{
+    padding: 80px 0;
+  }
+  .content__4 h4{
+    font-size: 12px;
+    font-weight: 700;
+    padding-bottom: 80px;
+  }
+  .content__4 p{
+    margin: 0;
+    font-size: 12px;
+    font-weight: 400;
+  }
+  .content__4 button{
+    margin: 80px 0;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 16px 48px;
   }
 }
