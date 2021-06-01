@@ -223,6 +223,10 @@ nav{
     font-size: 16px;
     font-weight: 400;
   }
+  .footer__content{
+    display: flex;
+    flex-direction: row;
+  }
   .location .maplight p{
     padding-top: 20px;
   }
@@ -424,6 +428,10 @@ nav{
   .content__7 p{
     font-size: 12px;
     font-weight: 400;
+  }
+  .footer__content{
+    display: flex;
+    flex-direction: row;
   }
   .location .maplight p{
     padding-top: 20px;
@@ -638,6 +646,34 @@ nav{
     background-color: #252B42;
     padding: 100px 0;
   }
+  .footer__content{
+    display: flex;
+    flex-direction: row;
+  }
+  .content__7 h4{
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 28px;
+  }
+  .content__7 p{
+    font-size: 12px;
+    font-weight: 400;
+  }
+  .location .maplight p{
+    padding-top: 20px;
+  }
+  .location .andro img{
+    margin-right: 12px;
+    margin-left: 12px;
+    margin-top: 12px;
+  }
+  .location .andro p{
+    padding-top: 20px;
+  }
+  .location .logo__bottom{
+    padding-top: 20px;
+    margin-left: -12px;
+  }
 }
 
 /* SMALL DEVICE */
@@ -820,5 +856,18 @@ nav{
   .content__7{
     background-color: #252B42;
     padding: 100px 0;
+  }
+  .content__7 h4{
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 28px;
+  }
+  .content__7 p{
+    font-size: 12px;
+  }
+  .footer__content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
   }
 }
