@@ -641,6 +641,10 @@ nav{
     justify-content: center;
     flex-direction: column;
   }
+  .left button{
+    padding: 8px 32px;
+    font-size: 20px;
+  }
 
   .content__7{
     background-color: #252B42;
@@ -851,6 +855,10 @@ nav{
     display: flex;
     justify-content: center;
     flex-direction: column;
+  }
+  .left button{
+    padding: 8px 32px;
+    font-size: 20px;
   }
 
   .content__7{
