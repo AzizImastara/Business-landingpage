@@ -36,7 +36,6 @@ nav{
   .jumbotron button{
     position: relative;
     font-size: 20px;
-    font-weight: 700;
     padding: 12px 28px;
   }
 
@@ -284,7 +283,6 @@ nav{
   .jumbotron button{
     position: relative;
     font-size: 16px;
-    font-weight: 700;
     padding: 8px 20px;
   }
 
@@ -501,6 +499,36 @@ nav{
 
 /* MEDIUM DEVICE */
 @media (min-width: 768px) and (max-width: 991px){
+  .jumbotron img{
+    position: relative;
+    margin-top: -180px;
+  }
+  .jumbotron h1{
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: -240px;
+    position: relative;
+  }
+  .jumbotron p{
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+  }
+  .jumbotron button{
+    position: relative;
+    font-size: 16px;
+    padding: 8px 20px;
+  }
+
+  .features h1{
+    font-size: 40px;
+    font-weight: 400;
+  }
+  .features p{
+    font-size: 20px;
+    font-weight: 400;
+  }
+
   .vector h1{
     font-size: 20px;
     font-weight: 700;
@@ -720,6 +748,36 @@ nav{
 
 /* SMALL DEVICE */
 @media (max-width: 767px){
+  .jumbotron img{
+    position: relative;
+    margin-top: -100px;
+  }
+  .jumbotron h1{
+    font-size: 32px;
+    font-weight: 400;
+    margin-top: -150px;
+    position: relative;
+  }
+  .jumbotron p{
+    font-size: 12px;
+    font-weight: 400;
+    position: relative;
+  }
+  .jumbotron button{
+    position: relative;
+    font-size: 20px;
+    padding: 16px 48px;
+  }
+
+  .features h1{
+    font-size: 40px;
+    font-weight: 400;
+  }
+  .features p{
+    font-size: 20px;
+    font-weight: 400;
+  }
+
   .vector h1{
     font-size: 20px;
     font-weight: 700;
