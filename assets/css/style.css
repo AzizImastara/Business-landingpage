@@ -18,7 +18,7 @@ nav{
 
 /* EXTRA LARGE DEVICE */
 @media (min-width: 1200px){
-  .jumbotron img{
+  /* .jumbotron img{
     position: relative;
     margin-top: -180px;
   }
@@ -37,6 +37,47 @@ nav{
     position: relative;
     font-size: 20px;
     padding: 12px 28px;
+  } */
+
+  .hero{
+    width: 100%;
+    position: relative;
+  }
+  .hero__background{
+    width: 100%;
+    height: 930px;
+  }
+  .hero__background img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: bottom;
+  }
+  .hero__content{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+  }
+  .hero__content h1{
+    font-size: 74px;
+    font-weight: 700;
+  }
+  .hero__content p{
+    font-size: 28px;
+    font-weight: 400;
+  }
+  .hero__content button{
+    font-size: 20px;
+    padding: 12px 28px;
+    margin-top: 60px;
   }
 
   .features h1{
@@ -265,7 +306,7 @@ nav{
 
 /* LARGER DEVICE */
 @media (min-width: 992px) and (max-width: 1119px){
-  .jumbotron img{
+  /* .jumbotron img{
     position: relative;
     margin-top: -180px;
   }
@@ -284,6 +325,47 @@ nav{
     position: relative;
     font-size: 16px;
     padding: 8px 20px;
+  } */
+
+  .hero{
+    width: 100%;
+    position: relative;
+  }
+  .hero__background{
+    width: 100%;
+    height: 930px;
+  }
+  .hero__background img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: bottom;
+  }
+  .hero__content{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+  }
+  .hero__content h1{
+    font-size: 48px;
+    font-weight: 700;
+  }
+  .hero__content p{
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .hero__content button{
+    font-size: 16px;
+    padding: 8px 20px;
+    margin-top: 60px;
   }
 
   .features h1{
@@ -499,7 +581,7 @@ nav{
 
 /* MEDIUM DEVICE */
 @media (min-width: 768px) and (max-width: 991px){
-  .jumbotron img{
+  /* .jumbotron img{
     position: relative;
     margin-top: -180px;
   }
@@ -518,6 +600,47 @@ nav{
     position: relative;
     font-size: 16px;
     padding: 8px 20px;
+  } */
+
+  .hero{
+    width: 100%;
+    position: relative;
+  }
+  .hero__background{
+    width: 100%;
+    height: 930px;
+  }
+  .hero__background img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: bottom;
+  }
+  .hero__content{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+  }
+  .hero__content h1{
+    font-size: 32px;
+    font-weight: 700;
+  }
+  .hero__content p{
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .hero__content button{
+    font-size: 16px;
+    padding: 8px 20px;
+    margin-top: 60px;
   }
 
   .features h1{
@@ -748,7 +871,7 @@ nav{
 
 /* SMALL DEVICE */
 @media (max-width: 767px){
-  .jumbotron img{
+  /* .jumbotron img{
     position: relative;
     margin-top: -100px;
   }
@@ -767,6 +890,47 @@ nav{
     position: relative;
     font-size: 20px;
     padding: 16px 48px;
+  } */
+
+  .hero{
+    width: 100%;
+    position: relative;
+  }
+  .hero__background{
+    width: 100%;
+    height: 830px;
+  }
+  .hero__background img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: bottom;
+  }
+  .hero__content{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+  }
+  .hero__content h1{
+    font-size: 32px;
+    font-weight: 700;
+  }
+  .hero__content p{
+    font-size: 12px;
+    font-weight: 400;
+  }
+  .hero__content button{
+    font-size: 16px;
+    padding: 8px 20px;
+    margin-top: 60px;
   }
 
   .features h1{
