@@ -196,7 +196,7 @@ nav{
     font-weight: 700;
   }
 
-  .content__5{
+  /* .content__5{
     background-color: #252B42;
     padding: 100px 0;
   }
@@ -235,6 +235,53 @@ nav{
   }
   .dollar__biru{
     padding: 30px 0;
+  } */
+
+  .pricing{
+    background-color: #252B42;
+  }
+  .card-list h1{
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .card-list h4{
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .card-list p{
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .card-list button{
+    font-size: 20px;
+    padding: 12px 48px;
+  }
+  .card-list{
+    /* width: calc(100% + 32px); */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 32px;
+    /* margin: 0 0 0 -32px; */
+  }
+  .card-list__item{
+    width: 100%;
+    min-height: 100px;
+    margin: 32px 0 0 32px;
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 12px;
+  }
+  .card-list__item:nth-child(2){
+    background-color: #2091f9;
+    padding: 32px 12px;
+  }
+  .card-list__number{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: row;
   }
 
   .content__6{
