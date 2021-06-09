@@ -262,7 +262,7 @@ nav{
     align-items: center;
     justify-content: space-around;
     padding: 32px;
-    /* margin: 0 0 0 -32px; */
+    margin: 0 0 0 -32px;
   }
   .card-list__item{
     width: 100%;
@@ -584,7 +584,7 @@ nav{
     align-items: center;
     justify-content: space-around;
     padding: 32px;
-    /* margin: 0 0 0 -32px; */
+    margin: 0 0 0 -32px;
   }
   .card-list__item{
     width: 100%;
@@ -913,7 +913,7 @@ nav{
     align-items: center;
     justify-content: space-around;
     padding: 32px;
-    /* margin: 0 0 0 -32px; */
+    margin: 0 0 0 -32px;
   }
   .card-list__item{
     width: 100%;
