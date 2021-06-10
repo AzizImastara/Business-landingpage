@@ -276,12 +276,19 @@ nav{
     background-color: #2091f9;
     padding: 32px 12px;
   }
-  .card-list__number{
+  .card-pricing{
     display: flex;
-    align-items: center;
-    text-align: center;
+    margin: 0 auto;
     justify-content: center;
-    flex-direction: row;
+    align-items: center;
+    padding: 12px 0;
+  }
+  .card-pricing h1{
+    font-size: 76px;
+  }
+  .card-pricing h2{
+    font-size: 20px;
+    font-weight: 700;
   }
 
   .content__6{
@@ -598,12 +605,19 @@ nav{
     background-color: #2091f9;
     padding: 32px 12px;
   }
-  .card-list__number{
+  .card-pricing{
     display: flex;
-    align-items: center;
-    text-align: center;
+    margin: 0 auto;
     justify-content: center;
-    flex-direction: row;
+    align-items: center;
+    padding: 12px 0;
+  }
+  .card-pricing h1{
+    font-size: 76px;
+  }
+  .card-pricing h2{
+    font-size: 20px;
+    font-weight: 700;
   }
 
   .content__6{
@@ -913,7 +927,7 @@ nav{
     align-items: center;
     justify-content: space-around;
     padding: 32px;
-    margin: 0 0 0 -32px;
+    margin: 0 0 0 -32px;  
   }
   .card-list__item{
     width: 100%;
@@ -927,12 +941,19 @@ nav{
     background-color: #2091f9;
     padding: 32px 12px;
   }
-  .card-list__number{
+  .card-pricing{
     display: flex;
-    align-items: center;
-    text-align: center;
+    margin: 0 auto;
     justify-content: center;
-    flex-direction: row;
+    align-items: center;
+    padding: 12px 0;
+  }
+  .card-pricing h1{
+    font-size: 48px;
+  }
+  .card-pricing h2{
+    font-size: 20px;
+    font-weight: 700;
   }
 
   .content__6{
@@ -1262,12 +1283,19 @@ nav{
     background-color: #2091f9;
     /* padding: 32px 12px; */
   }
-  .card-list__number{
+  .card-pricing{
     display: flex;
-    align-items: center;
-    text-align: center;
+    margin: 0 auto;
     justify-content: center;
-    flex-direction: row;
+    align-items: center;
+    padding: 12px 0;
+  }
+  .card-pricing h1{
+    font-size: 76px;
+  }
+  .card-pricing h2{
+    font-size: 20px;
+    font-weight: 700;
   }
 
   .content__6{
