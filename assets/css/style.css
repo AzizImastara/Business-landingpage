@@ -2,43 +2,8 @@
     font-family: 'Graphik';
 }
 
-nav{
-    position: relative;
-    z-index: 1;
-}   
-.nav-link{
-    margin-right: 24px;
-}
-.nav-link span{
-    color: #fff;
-    font-size: 16px;
-    font-weight: 400;
-}
-
-
 /* EXTRA LARGE DEVICE */
 @media (min-width: 1200px){
-  /* .jumbotron img{
-    position: relative;
-    margin-top: -180px;
-  }
-  .jumbotron h1{
-    font-size: 74px;
-    font-weight: 700;
-    margin-top: -520px;
-    position: relative;
-  }
-  .jumbotron p{
-    font-size: 28px;
-    font-weight: 400;
-    position: relative;
-  }
-  .jumbotron button{
-    position: relative;
-    font-size: 20px;
-    padding: 12px 28px;
-  } */
-
   .hero{
     width: 100%;
     position: relative;
@@ -202,47 +167,6 @@ nav{
     margin: 0;
   }
 
-  /* .content__5{
-    background-color: #252B42;
-    padding: 100px 0;
-  }
-  .desktop__5 h1{
-    font-size: 48px;
-    font-weight: 400;
-  }
-  .desktop__5 h2{
-    font-size: 28px;
-    font-weight: 400;
-  }
-  .box__card{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding: 48px;
-  }
-  .box__col{
-    padding: 40px;
-    align-items: flex-end;
-  }
-  .box__col h1{
-    font-size: 20px;
-    font-weight: 700;
-  }
-  .box__col h4{
-    font-size: 16px;
-    font-weight: 400;
-  }
-  .box__col p{
-    font-size: 16px;
-    font-weight: 400;
-  }
-  .dollar{
-    padding: 30px 0;
-  }
-  .dollar__biru{
-    padding: 30px 0;
-  } */
-
   .pricing{
     background-color: #252B42;
   }
@@ -316,8 +240,18 @@ nav{
     font-size: 20px;
     font-weight: 400;
   }
-  .bx__item{
-    padding: 0 20px;
+  .right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .bx__item {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
   .form__content{
     display: flex;
@@ -327,7 +261,15 @@ nav{
   .map{
     display: flex;
     justify-content: center;
-    padding: 20px 0;
+    align-items: center;
+    flex-direction: column;
+    background-color: red;
+    /* padding: 20px 0; */
+  }
+  .social{
+    display: flex;
+    flex-direction: column;
+    background-color: red;
   }
 
   .content__7{
@@ -366,27 +308,6 @@ nav{
 
 /* LARGER DEVICE */
 @media (min-width: 992px) and (max-width: 1119px){
-  /* .jumbotron img{
-    position: relative;
-    margin-top: -180px;
-  }
-  .jumbotron h1{
-    font-size: 48px;
-    font-weight: 700;
-    margin-top: -360px;
-    position: relative;
-  }
-  .jumbotron p{
-    font-size: 20px;
-    font-weight: 400;
-    position: relative;
-  }
-  .jumbotron button{
-    position: relative;
-    font-size: 16px;
-    padding: 8px 20px;
-  } */
-
   .hero{
     width: 100%;
     position: relative;
@@ -537,47 +458,6 @@ nav{
     margin: 0;
   }
 
-  /* .content__5{
-    background-color: #252B42;
-    padding: 100px 0;
-  }
-  .desktop__5 h1{
-    font-size: 40px;
-    font-weight: 400;
-  }
-  .desktop__5 h2{
-    font-size: 20px;
-    font-weight: 400;
-  }
-  .box__card{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding: 48px;
-  }
-  .box__col{
-    padding: 40px;
-    align-items: flex-end;
-  }
-  .box__col h1{
-    font-size: 20px;
-    font-weight: 700;
-  }
-  .box__col h4{
-    font-size: 16px;
-    font-weight: 400;
-  }
-  .box__col p{
-    font-size: 16px;
-    font-weight: 400;
-  }
-  .dollar{
-    padding: 30px 0;
-  }
-  .dollar__biru{
-    padding: 30px 0;
-  } */
-
   .pricing{
     background-color: #252B42;
   }
@@ -701,27 +581,6 @@ nav{
 
 /* MEDIUM DEVICE */
 @media (min-width: 768px) and (max-width: 991px){
-  /* .jumbotron img{
-    position: relative;
-    margin-top: -180px;
-  }
-  .jumbotron h1{
-    font-size: 32px;
-    font-weight: 700;
-    margin-top: -240px;
-    position: relative;
-  }
-  .jumbotron p{
-    font-size: 16px;
-    font-weight: 400;
-    position: relative;
-  }
-  .jumbotron button{
-    position: relative;
-    font-size: 16px;
-    padding: 8px 20px;
-  } */
-
   .hero{
     width: 100%;
     position: relative;
@@ -875,51 +734,6 @@ nav{
     align-items: center;
   }
 
-  /* .content__5{
-    background-color: #252B42;
-    padding: 100px 0;
-  }
-  .desktop__5 h1{
-    font-size: 40px;
-    font-weight: 400;
-  }
-  .desktop__5 h2{
-    font-size: 20px;
-    font-weight: 400;
-  }
-  .box__card{
-    padding: 48px;
-    display: flex;
-    flex-direction: column;
-  }
-  .box__col{
-    border-radius: 20px;
-    padding: 24px 0;
-    margin: 48px;
-  }
-  .box__col h1{
-    font-size: 20px;
-    font-weight: 700;
-  }
-  .box__col h4{
-    font-size: 16px;
-    font-weight: 400;
-  }
-  .box__col p{
-    font-size: 16px;
-    font-weight: 400;
-  }
-  .box__card button{
-    padding: 16px 72px;
-    font-size: 20px;
-  }
-  .dollar{
-    padding: 48px 148px;
-  }
-  .dollar__biru{
-    padding: 48px 148px;
-  } */
-
   .pricing{
     background-color: #252B42;
   }
@@ -1051,27 +865,6 @@ nav{
 
 /* SMALL DEVICE */
 @media (max-width: 767px){
-  /* .jumbotron img{
-    position: relative;
-    margin-top: -100px;
-  }
-  .jumbotron h1{
-    font-size: 32px;
-    font-weight: 400;
-    margin-top: -150px;
-    position: relative;
-  }
-  .jumbotron p{
-    font-size: 12px;
-    font-weight: 400;
-    position: relative;
-  }
-  .jumbotron button{
-    position: relative;
-    font-size: 20px;
-    padding: 16px 48px;
-  } */
-
   .hero{
     width: 100%;
     position: relative;
@@ -1216,55 +1009,6 @@ nav{
     justify-content: center;
     align-items: center;
   }
-
-  /* .content__5{
-    background-color: #252B42;
-    padding: 100px 0;
-  }
-  .desktop__5 h1{
-    font-size: 40px;
-    font-weight: 400;
-  }
-  .desktop__5 h2{
-    font-size: 20px;
-    font-weight: 400;
-  }
-  .box__card{
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-  }
-  .box__col{
-    border-radius: 20px;
-    padding: 24px 0;
-    margin: 48px;
-  }
-  .box__col h1{
-    font-size: 20px;
-    font-weight: 700;
-  }
-  .box__col h4{
-    font-size: 16px;
-    font-weight: 400;
-  }
-  .box__col p{
-    font-size: 16px;
-    font-weight: 400;
-  }
-  .box__card button{
-    padding: 8px 40px;
-    font-size: 16px;
-  }
-  .dollar{
-    padding: 16px 32px;
-  }
-  .dollar__biru h1{
-    font-size: 60px;
-    font-weight: 700;
-  }
-  .dollar__biru{
-    padding: 16px 32px;
-  } */
 
   .pricing{
     background-color: #252B42;
