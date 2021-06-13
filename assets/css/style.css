@@ -1159,22 +1159,4 @@
     display: flex;
     justify-content: center;
   }
-
-  /* .content__7{
-    background-color: #252B42;
-    padding: 100px 0;
-  }
-  .content__7 h4{
-    font-size: 16px;
-    font-weight: 700;
-    margin-bottom: 28px;
-  }
-  .content__7 p{
-    font-size: 12px;
-  }
-  .footer__content{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-  } */
 }
